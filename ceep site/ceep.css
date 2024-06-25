@@ -1,0 +1,29 @@
+.menu-lateral {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 100vh;
+  overflow-y: auto;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+.menu-lateral ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-lateral li {
+  margin-bottom: 10px;
+}
+
+.menu-lateral a {
+  text-decoration: none;
+  color: #333;
+}
+
+.menu-lateral a:hover {
+  color: #666;
+}
